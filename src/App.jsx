@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
+import { FirstApp } from "./FirstApp";
+import { CounterApp } from "./CounterApp";
 
 export const App = () => {
-  return <div className="App">Aimi</div>;
+  return <CounterApp value={5} />;
 };
